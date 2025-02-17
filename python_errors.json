@@ -1,0 +1,288 @@
+[
+  {
+    "error": "ERROR: Could not find a version that satisfies the requirement tensorflow==2.5.0 (from versions: none)",
+    "solution": "Check if the required version is available using `pip install tensorflow --upgrade` or check Python compatibility.",
+    "error_description": "This error occurs when the specified package version is not available in PyPI or is incompatible with your Python version."
+  },
+  {
+    "error": "ERROR: No matching distribution found for tensorflow==2.5.0",
+    "solution": "Ensure your Python version supports the package and try using a different compatible version.",
+    "error_description": "Occurs when pip cannot find a suitable package version for your Python version or OS."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'numpy'",
+    "solution": "Install the module using `pip install numpy`.",
+    "error_description": "Happens when a required module is not installed or is not in the correct environment."
+  },
+  {
+    "error": "ImportError: cannot import name 'X' from 'module_name'",
+    "solution": "Check the module’s documentation to confirm the availability of the function/class and update the package.",
+    "error_description": "Occurs when trying to import a non-existent or deprecated function/class from a module."
+  },
+  {
+    "error": "TypeError: 'int' object is not iterable",
+    "solution": "Ensure the variable is iterable (e.g., a list or tuple) before using it in a loop.",
+    "error_description": "Raised when an integer is mistakenly used in a context where an iterable is required."
+  },
+  {
+    "error": "ValueError: invalid literal for int() with base 10: 'abc'",
+    "solution": "Ensure the input is a valid integer before converting.",
+    "error_description": "Occurs when trying to convert a non-numeric string into an integer."
+  },
+  {
+    "error": "IndexError: list index out of range",
+    "solution": "Verify the index is within the valid range of the list.",
+    "error_description": "Happens when accessing a list element using an index that exceeds the list’s size."
+  },
+  {
+    "error": "KeyError: 'some_key'",
+    "solution": "Check if the key exists in the dictionary before accessing it.",
+    "error_description": "Occurs when trying to access a dictionary with a non-existent key."
+  },
+  {
+    "error": "FileNotFoundError: [Errno 2] No such file or directory: 'data.csv'",
+    "solution": "Ensure the file exists at the specified path before attempting to open it.",
+    "error_description": "Happens when trying to read or open a file that does not exist."
+  },
+  {
+    "error": "ZeroDivisionError: division by zero",
+    "solution": "Ensure the denominator is not zero before performing division.",
+    "error_description": "Occurs when a number is divided by zero, which is mathematically undefined."
+  },
+  {
+    "error": "MemoryError: Unable to allocate array with shape (1000000,1000000) and data type float64",
+    "solution": "Optimize memory usage or use smaller data structures.",
+    "error_description": "Happens when the system runs out of memory due to excessive memory allocation."
+  },
+  {
+    "error": "OSError: [Errno 98] Address already in use",
+    "solution": "Use `netstat -tulnp` to check for processes using the port and terminate them if necessary.",
+    "error_description": "Occurs when attempting to bind to a port that is already in use."
+  },
+  {
+    "error": "RecursionError: maximum recursion depth exceeded in comparison",
+    "solution": "Ensure a proper base case is provided to terminate recursion.",
+    "error_description": "Raised when recursive calls exceed the maximum recursion depth limit."
+  },
+  {
+    "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 0: invalid start byte",
+    "solution": "Specify the correct encoding format when reading the file (e.g., `encoding='latin-1'`).",
+    "error_description": "Occurs when trying to decode bytes using an incorrect character encoding."
+  },
+  {
+    "error": "PermissionError: [Errno 13] Permission denied: '/root/secret.txt'",
+    "solution": "Run the script with proper permissions using `sudo` or change file permissions.",
+    "error_description": "Happens when trying to access a file or directory without proper permissions."
+  },
+  {
+    "error": "AttributeError: 'NoneType' object has no attribute 'append'",
+    "solution": "Check if the object is `None` before calling methods on it.",
+    "error_description": "Occurs when trying to call an attribute or method on a `None` value."
+  },
+  {
+    "error": "IndentationError: expected an indented block",
+    "solution": "Ensure proper indentation using spaces or tabs consistently.",
+    "error_description": "Happens when a code block is not properly indented."
+  },
+  {
+    "error": "SyntaxError: EOL while scanning string literal",
+    "solution": "Ensure all string literals are properly closed with matching quotes.",
+    "error_description": "Occurs when a string is left open without closing quotation marks."
+  },
+  {
+    "error": "RuntimeError: dictionary changed size during iteration",
+    "solution": "Avoid modifying the dictionary while iterating over it.",
+    "error_description": "Raised when modifying a dictionary (adding/removing keys) during iteration."
+  },
+  {
+    "error": "NameError: name 'variable' is not defined",
+    "solution": "Ensure the variable is defined before using it.",
+    "error_description": "Occurs when referencing an undefined variable."
+  },
+  {
+    "error": "TimeoutError: [Errno 110] Connection timed out",
+    "solution": "Check network connectivity or increase the timeout duration.",
+    "error_description": "Occurs when a network operation exceeds the allotted time limit."
+  },
+  {
+    "error": "AssertionError: ",
+    "solution": "Ensure that the assertion condition is correctly set.",
+    "error_description": "Happens when an `assert` statement fails."
+  },
+  {
+    "error": "StopIteration: ",
+    "solution": "Ensure the iterator has a valid termination condition.",
+    "error_description": "Raised when an iterator runs out of elements."
+  },
+  {
+    "error": "KeyboardInterrupt",
+    "solution": "Handle `KeyboardInterrupt` in your code using `try-except` blocks if necessary.",
+    "error_description": "Occurs when the user manually interrupts program execution (e.g., Ctrl+C)."
+  },
+  {
+    "error": "FloatingPointError: ",
+    "solution": "Use the `decimal` module for precision.",
+    "error_description": "Happens when a floating-point operation fails."
+  },
+  {
+    "error": "SystemExit",
+    "solution": "Ensure proper handling of `sys.exit()` to avoid unintended program termination.",
+    "error_description": "Raised when `sys.exit()` is called to terminate a program."
+  },
+  {
+    "error": "DeprecationWarning: The 'warn' function is deprecated",
+    "solution": "Use the recommended alternative method.",
+    "error_description": "Occurs when using a feature that is marked for future removal."
+  },
+  {
+    "error": "FutureWarning: This will change in a future version",
+    "solution": "Modify the code to avoid future compatibility issues.",
+    "error_description": "Warns about upcoming changes in future Python versions."
+  },
+    {
+    "error": "TypeError: can only concatenate str (not 'int') to str",
+    "solution": "Convert the integer to a string using `str()` before concatenation.",
+    "error_description": "Occurs when attempting to concatenate a string with a non-string type."
+  },
+  {
+    "error": "TypeError: unsupported operand type(s) for +: 'int' and 'list'",
+    "solution": "Ensure both operands are of the same type before performing the operation.",
+    "error_description": "Happens when an operation is attempted between incompatible types."
+  },
+  {
+    "error": "ImportError: No module named 'requests'",
+    "solution": "Install the missing module using `pip install requests`.",
+    "error_description": "Occurs when trying to import a module that is not installed."
+  },
+  {
+    "error": "IndentationError: unexpected indent",
+    "solution": "Ensure indentation is consistent and remove unnecessary spaces.",
+    "error_description": "Happens when an unexpected indentation is found in the code."
+  },
+  {
+    "error": "SyntaxError: invalid syntax",
+    "solution": "Check for typos, missing colons, or incorrect indentation.",
+    "error_description": "Occurs when Python encounters incorrect syntax."
+  },
+  {
+    "error": "IndexError: string index out of range",
+    "solution": "Ensure the index is within the valid range of the string length.",
+    "error_description": "Happens when trying to access an invalid index in a string."
+  },
+  {
+    "error": "ModuleNotFoundError: No module named 'pandas'",
+    "solution": "Install the missing module using `pip install pandas`.",
+    "error_description": "Occurs when trying to import the Pandas library without having it installed."
+  },
+  {
+    "error": "TypeError: object of type 'NoneType' has no len()",
+    "solution": "Check if the object is `None` before calling `len()`.",
+    "error_description": "Happens when trying to get the length of a `None` object."
+  },
+  {
+    "error": "OSError: [Errno 28] No space left on device",
+    "solution": "Free up disk space or increase the available storage.",
+    "error_description": "Occurs when there is insufficient storage space on the device."
+  },
+  {
+    "error": "UnicodeEncodeError: 'ascii' codec can't encode character",
+    "solution": "Use UTF-8 encoding while handling text (`str.encode('utf-8')`).",
+    "error_description": "Happens when trying to encode a non-ASCII character with ASCII encoding."
+  },
+  {
+    "error": "UnicodeDecodeError: 'utf-8' codec can't decode byte",
+    "solution": "Try specifying the correct encoding (e.g., `open(file, encoding='latin-1')`).",
+    "error_description": "Occurs when decoding bytes with an incorrect encoding."
+  },
+  {
+    "error": "HTTPError: 404 Client Error: Not Found for url",
+    "solution": "Verify the URL and ensure the resource exists.",
+    "error_description": "Occurs when a requested HTTP resource is not found."
+  },
+  {
+    "error": "TimeoutError: [Errno 110] Connection timed out",
+    "solution": "Check your internet connection or increase the timeout duration.",
+    "error_description": "Happens when a network request exceeds the allowed time limit."
+  },
+  {
+    "error": "MemoryError",
+    "solution": "Optimize data structures and reduce memory usage.",
+    "error_description": "Occurs when Python runs out of available memory."
+  },
+  {
+    "error": "AttributeError: 'dict' object has no attribute 'append'",
+    "solution": "Check if the object supports the intended method before using it.",
+    "error_description": "Happens when calling a method on an object that does not support it."
+  },
+  {
+    "error": "KeyError: 'some_non_existent_key'",
+    "solution": "Use `dict.get(key)` or check if the key exists before accessing.",
+    "error_description": "Occurs when trying to access a dictionary with a non-existent key."
+  },
+  {
+    "error": "TypeError: 'int' object is not callable",
+    "solution": "Ensure there is no variable shadowing a function name.",
+    "error_description": "Happens when trying to call an integer as if it were a function."
+  },
+  {
+    "error": "JSONDecodeError: Expecting value: line 1 column 1 (char 0)",
+    "solution": "Ensure the JSON input is not empty or malformed.",
+    "error_description": "Occurs when trying to parse an empty or invalid JSON string."
+  },
+  {
+    "error": "NameError: name 'os' is not defined",
+    "solution": "Ensure the required module is imported before use.",
+    "error_description": "Happens when trying to use a module that has not been imported."
+  },
+  {
+    "error": "SyntaxError: unexpected EOF while parsing",
+    "solution": "Ensure all parentheses, brackets, and string literals are properly closed.",
+    "error_description": "Occurs when Python reaches the end of a file while expecting more code."
+  },
+  {
+    "error": "ImportError: attempted relative import with no known parent package",
+    "solution": "Run the script as a module or adjust the import statements.",
+    "error_description": "Occurs when using relative imports incorrectly."
+  },
+  {
+    "error": "SSL: CERTIFICATE_VERIFY_FAILED",
+    "solution": "Use `pip install --trusted-host` or update the SSL certificates.",
+    "error_description": "Happens when an SSL certificate verification fails."
+  },
+  {
+    "error": "TypeError: unhashable type: 'list'",
+    "solution": "Use immutable data types (e.g., tuple) as dictionary keys or set elements.",
+    "error_description": "Occurs when trying to use a mutable type (e.g., list) as a dictionary key."
+  },
+  {
+    "error": "ImportError: cannot import name 'xyz' from partially initialized module",
+    "solution": "Avoid circular imports and check module initialization.",
+    "error_description": "Occurs when a module is still being loaded while an import is attempted."
+  },
+  {
+    "error": "FileExistsError: [Errno 17] File exists",
+    "solution": "Check if the file exists before creating it.",
+    "error_description": "Happens when trying to create a file that already exists."
+  },
+  {
+    "error": "KeyboardInterrupt",
+    "solution": "Handle interrupts gracefully using `try-except KeyboardInterrupt`.",
+    "error_description": "Occurs when the user manually stops execution using Ctrl+C."
+  },
+  {
+    "error": "RuntimeError: maximum recursion depth exceeded",
+    "solution": "Increase the recursion limit using `sys.setrecursionlimit()` or use an iterative approach.",
+    "error_description": "Happens when recursion goes too deep without a base case."
+  },
+  {
+    "error": "TypeError: 'NoneType' object is not subscriptable",
+    "solution": "Ensure that the variable is not `None` before indexing it.",
+    "error_description": "Occurs when trying to index or slice a `None` object."
+  },
+  {
+    "error": "UnicodeTranslateError: 'charmap' codec can't translate character",
+    "solution": "Use UTF-8 encoding (`encoding='utf-8'`).",
+    "error_description": "Happens when trying to encode a character that is not supported by the specified encoding."
+  }
+]
+
